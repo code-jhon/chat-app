@@ -23,6 +23,7 @@ const ConversationList = () => {
                 )}
             />
             <Button title="Add Conversation" onPress={() => navigation.navigate('NewConversation')} />
+            <Button title="Manage Contacts" onPress={() => navigation.navigate('Contacts')} />
         </View>
     );
 };
